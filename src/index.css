@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  color: #1f2937;
+}
+
+.edge-fade {
+  -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    black 88%,
+    rgba(0, 0, 0, 0.95) 92%,
+    rgba(0, 0, 0, 0.7) 96%,
+    transparent 100%
+  );
+
+  mask-image: radial-gradient(
+    ellipse at center,
+    black 88%,
+    rgba(0, 0, 0, 0.95) 92%,
+    rgba(0, 0, 0, 0.7) 96%,
+    transparent 100%
+  );
+}
