@@ -2,7 +2,7 @@ import rideTwin from "../assets/ridetwin.png";
 import voltmotive from "../assets/voltmotive.jpeg";
 import compression1 from "../assets/cellcompress1.jpeg";
 import compression2 from "../assets/cellcompress2.jpeg";
-import v6engine from "../assets/v6engine.jpg.jpg";
+import v6engine from "../assets/v6engine.jpg";
 
 function Projects() {
   return (
