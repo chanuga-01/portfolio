@@ -63,12 +63,12 @@ function Hero() {
           <div className="flex flex-wrap gap-4 mt-10">
 
             <a
-              href="/Chanuga_Liyanage_CV.pdf"
-              download
-              className="bg-blue-700 text-white px-6 py-3 rounded-xl hover:bg-blue-800 transition duration-300"
-            >
-              Download CV
-            </a>
+  href={`${import.meta.env.BASE_URL}Chanuga_Liyanage_CV.pdf`}
+  download
+  className="bg-blue-700 text-white px-6 py-3 rounded-xl hover:bg-blue-800 transition duration-300"
+>
+  Download CV
+</a>
 
             <a
               href="https://github.com/chanuga-01"
