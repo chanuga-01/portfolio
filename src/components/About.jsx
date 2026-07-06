@@ -15,7 +15,7 @@ function About() {
 
             <p className="text-gray-700 leading-8 text-lg">
 
-              I'm a final-year Mechanical Engineering undergraduate
+              I'm a final-year Mechanical Engineering graduate
               specializing in Mechatronics at the University of
               Peradeniya. I have a strong interest in intelligent
               engineering systems and enjoy combining mechanical
