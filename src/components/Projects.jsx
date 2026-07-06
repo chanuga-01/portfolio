@@ -183,102 +183,103 @@ function Projects() {
         </div>
 
         {/* ===================================================== */}
-        {/* Battery Cell Compression Machine */}
-        {/* ===================================================== */}
+{/* Battery Cell Compression Machine */}
+{/* ===================================================== */}
 
-        <div className="mt-20 bg-white rounded-3xl shadow-xl overflow-hidden">
+<div className="mt-20 bg-white rounded-3xl shadow-xl overflow-hidden">
 
-          <div className="grid grid-cols-2 gap-2">
+  <div className="grid grid-cols-2 gap-2">
 
-            <img
-              src={compression1}
-              alt="Battery Cell Compression Machine"
-              className="w-full h-[420px] object-cover"
-            />
+    <img
+      src={compression1}
+      alt="Battery Cell Compression Machine"
+      className="w-full h-[420px] object-cover"
+    />
 
-            <img
-              src={compression2}
-              alt="Battery Cell Compression Machine"
-              className="w-full h-[420px] object-cover"
-            />
+    <img
+      src={compression2}
+      alt="Battery Cell Compression Machine"
+      className="w-full h-[420px] object-cover"
+    />
 
-          </div>
+  </div>
 
-          <div className="p-10">
+  <div className="p-10">
 
-            <span className="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-semibold">
-              Internship Project
-            </span>
+    <span className="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-semibold">
+      Internship Project
+    </span>
 
-            <h3 className="text-4xl font-bold mt-5">
-              Battery Cell Compression Machine
-            </h3>
+    <h3 className="text-4xl font-bold mt-5">
+      Battery Cell Compression Machine
+    </h3>
 
-            <h4 className="text-xl text-blue-700 mt-2 font-semibold">
-              Design & Development of a Battery Cell Compression Machine
-            </h4>
+    <h4 className="text-xl text-blue-700 mt-2 font-semibold">
+      Design & Development of a Battery Cell Compression Machine
+    </h4>
 
-            <p className="text-gray-600 leading-8 mt-6">
-              Designed and developed a laboratory-scale Battery Cell
-              Compression Machine during my internship to improve the cycle
-              life and performance of lithium-ion battery cells through
-              controlled mechanical compression. The project involved
-              mechanical design, CAD modeling, component selection,
-              fabrication, assembly and testing of the complete system,
-              providing practical experience in battery technology,
-              prototype development and mechanical engineering.
-            </p>
+    <p className="text-gray-600 leading-8 mt-6">
+      Designed a pneumatic Battery Cell Compression Machine for LiFePO₄ battery
+      cells to provide uniform and adjustable compression during battery
+      testing. Applied machine design principles, pneumatic system design,
+      force and pressure calculations, CAD modeling, engineering component
+      selection, and load cell integration to develop a reliable mechanical
+      solution for improving battery performance and cycle life.
+    </p>
 
-            <h4 className="font-bold text-xl mt-8 mb-4">
-              Key Contributions
-            </h4>
+    <h4 className="font-bold text-xl mt-8 mb-4">
+      Key Contributions
+    </h4>
 
-            <ul className="space-y-3 text-gray-600">
+    <ul className="space-y-3 text-gray-600">
 
-              <li>✔ Designed the complete mechanical structure using CAD software.</li>
+      <li>✔ Designed the complete mechanical structure and compression mechanism using CAD software.</li>
 
-              <li>✔ Selected suitable mechanical components for controlled compression.</li>
+      <li>✔ Performed force and pressure calculations to size the pneumatic actuation system.</li>
 
-              <li>✔ Fabricated and assembled the complete prototype.</li>
+      <li>✔ Selected pneumatic, linear motion, and sensing components based on engineering requirements.</li>
 
-              <li>✔ Developed a reliable compression mechanism for battery testing.</li>
+      <li>✔ Integrated a load cell into the design for compression force measurement and validation.</li>
 
-              <li>✔ Applied mechanical engineering principles to improve battery cycle-life testing.</li>
+      <li>✔ Developed an adjustable compression mechanism for different LiFePO₄ battery cell configurations.</li>
 
-              <li>✔ Performed testing and validation of the completed system.</li>
+      
 
-            </ul>
+    </ul>
 
-            <h4 className="font-bold text-xl mt-8 mb-4">
-              Technologies & Tools
-            </h4>
+    <h4 className="font-bold text-xl mt-8 mb-4">
+      Technologies & Tools
+    </h4>
 
-            <div className="flex flex-wrap gap-3">
+    <div className="flex flex-wrap gap-3">
 
-              {[
-                "SolidWorks",
-                "AutoCAD",
-                "Mechanical Design",
-                "Battery Technology",
-                "Prototype Development",
-                "Manufacturing",
-                "Mechanical Assembly",
-                "Engineering Drawings",
-                "Testing & Validation"
-              ].map((skill) => (
-                <span
-                  key={skill}
-                  className="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm"
-                >
-                  {skill}
-                </span>
-              ))}
+      {[
+        "SolidWorks",
+        "AutoCAD",
+        "Machine Design",
+        "Pneumatic Systems",
+        "Mechanical Design",
+        "Force & Pressure Calculations",
+        "Component Selection",
+        "Load Cell Integration",
+        "Battery Engineering",
+        "Engineering Drawings",
+        "Prototype Design",
+        
+      ].map((skill) => (
+        <span
+          key={skill}
+          className="bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm"
+        >
+          {skill}
+        </span>
+      ))}
 
-            </div>
+    </div>
 
-          </div>
+  </div>
 
-        </div>
+</div>
 
         {/* ===================================================== */}
         {/* V6 Engine */}
