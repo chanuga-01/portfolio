@@ -19,8 +19,12 @@ function Hero() {
           </h1>
 
           <h2 className="text-3xl font-semibold mt-6 text-gray-800">
-            Mechanical Engineering Undergraduate
-          </h2>
+  B.Sc. Engineering Graduate
+</h2>
+
+<h3 className="text-xl text-blue-700 mt-2">
+  Mechanical Engineering • Specializing in Mechatronics
+</h3>
 
           <h3 className="text-xl text-blue-700 mt-2">
             Specializing in Mechatronics
