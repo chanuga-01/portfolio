@@ -14,8 +14,9 @@ function About() {
           <div>
 
             <p className="text-gray-700 leading-8 text-lg">
-I'm a Mechanical Engineering graduate specializing in Mechatronics from the University of Peradeniya.
- I have a strong interest in intelligent engineering systems and enjoy integrating mechanical engineering with programming, simulation, automation, artificial intelligence, and data-driven approaches to solve real-world engineering challenges.
+            I'm a Mechanical Engineering graduate specializing in Mechatronics from the University of Peradeniya.
+            I have a strong interest in intelligent engineering systems and enjoy integrating mechanical engineering 
+            with programming, simulation, automation, artificial intelligence, and data-driven approaches to solve real-world engineering challenges.
 
               <br /><br />
 

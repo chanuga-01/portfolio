@@ -24,6 +24,8 @@ function Skills() {
             <li>MATLAB</li>
             <li>C</li>
             <li>JavaScript</li>
+            <li>Verilog</li>
+
           </ul>
         </div>
 

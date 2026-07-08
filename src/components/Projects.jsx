@@ -28,10 +28,10 @@ function Projects() {
         <div className="mt-20 bg-white rounded-3xl shadow-xl overflow-hidden">
 
           <img
-            src={rideTwin}
-            alt="RideTwin"
-            className="w-full h-[420px] object-cover"
-          />
+          src={rideTwin}
+          alt="RideTwin"
+          className="w-full h-auto"
+/>
 
           <div className="p-10">
 
