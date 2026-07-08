@@ -14,14 +14,8 @@ function About() {
           <div>
 
             <p className="text-gray-700 leading-8 text-lg">
-
-              I'm a final-year Mechanical Engineering graduate
-              specializing in Mechatronics at the University of
-              Peradeniya. I have a strong interest in intelligent
-              engineering systems and enjoy combining mechanical
-              engineering with programming, simulation,
-              automation, and data-driven approaches to solve
-              real-world engineering challenges.
+I'm a Mechanical Engineering graduate specializing in Mechatronics from the University of Peradeniya.
+ I have a strong interest in intelligent engineering systems and enjoy integrating mechanical engineering with programming, simulation, automation, artificial intelligence, and data-driven approaches to solve real-world engineering challenges.
 
               <br /><br />
 
@@ -61,7 +55,7 @@ function About() {
 
                 <br />
 
-                GPA : 3.60 / 4.00
+                GPA : 3.54 / 4.00
 
               </p>
 
