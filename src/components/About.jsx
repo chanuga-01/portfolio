@@ -62,25 +62,27 @@ function About() {
 
             </div>
 
-            <div className="bg-blue-50 rounded-2xl p-6 shadow">
+              <div className="bg-blue-50 rounded-2xl p-6 shadow">
 
-            <h3 className="text-3xl font-bold text-blue-700 mb-6">
-              School Education
-            </h3>
+                <h3 className="text-2xl font-bold text-blue-700">
+                  School Education
+                </h3>
 
-            <h4 className="font-bold text-2xl">
-              Sri Sumangala College, Panadura
-            </h4>
+                <p className="mt-4 leading-8">
 
-            <p className="text-gray-700 mt-2">
-              G.C.E. Advanced Level (Physical Science)
-            </p>
+                  <strong>Sri Sumangala College, Panadura</strong>
 
-            <p className="text-gray-700 mt-2">
-              Results: <strong>2A's, 1B</strong>
-            </p>
+                  <br />
 
-            </div>
+                  G.C.E. Advanced Level (Physical Science)
+
+                  <br />
+
+                  Results : 2A's, 1B
+
+                </p>
+
+              </div>
 
           </div>
 
