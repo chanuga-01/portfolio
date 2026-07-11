@@ -135,16 +135,15 @@ function Projects() {
     </h4>
 
     <p className="text-gray-600 leading-8 mt-6">
-      Designed and developed a downscaled Series Hybrid Electric Vehicle
-      (HEV) featuring an intelligent embedded controller for real-time
-      power management. The system integrates dual Arduino
-      microcontrollers, multiple sensors, relay-based power switching,
-      and MATLAB/Simulink simulations to automatically manage energy
-      flow between the battery and generator under different operating
-      conditions. Successfully designed, assembled, and tested a
-      complete hardware prototype demonstrating embedded systems,
-      control engineering, power electronics, and vehicle system
-      integration.
+      Designed and developed a downscaled Series Hybrid Electric Vehicle (HEV)
+      featuring an intelligent embedded controller for real-time power
+      management. The system integrates dual Arduino microcontrollers,
+      multiple sensors, relay-based power switching, and MATLAB/Simulink
+      simulations to automatically manage energy flow between the battery
+      and generator under different operating conditions. Successfully
+      designed, assembled, and tested a complete hardware prototype
+      demonstrating embedded systems, control engineering, power
+      electronics, and vehicle system integration.
     </p>
 
     <h4 className="font-bold text-xl mt-8 mb-4">
@@ -167,7 +166,7 @@ function Projects() {
         "Relay Control",
         "PCB Design",
         "Control Systems",
-        "Hardware Integration"
+        "Hardware Integration",
       ].map((skill) => (
         <span
           key={skill}
@@ -179,46 +178,67 @@ function Projects() {
 
     </div>
 
+    {/* ===================================================== */}
     {/* Project Resources */}
+    {/* ===================================================== */}
 
-    <h4 className="font-bold text-xl mt-10 mb-4">
+    <h4 className="font-bold text-xl mt-10 mb-5">
       Project Resources
     </h4>
 
-    <div className="space-y-3">
+    <div className="space-y-6">
 
-      <a
-        href="https://lnkd.in/eNabZXe3"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-2 text-blue-700 hover:text-blue-900 hover:underline font-medium"
-      >
-        📘 Project Report
-      </a>
+      <div>
+        <p className="font-semibold text-gray-800">
+          📘 Project Report
+        </p>
 
-      <a
-        href="https://lnkd.in/e5v8NFc9"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-2 text-blue-700 hover:text-blue-900 hover:underline font-medium"
-      >
-        🎥 Demonstration Video 1
-      </a>
+        <a
+          href="https://lnkd.in/eNabZXe3"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800 break-all"
+        >
+          https://lnkd.in/eNabZXe3
+        </a>
+      </div>
 
-      <a
-        href="https://lnkd.in/eufMCsiZ"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-2 text-blue-700 hover:text-blue-900 hover:underline font-medium"
-      >
-        🎥 Demonstration Video 2
-      </a>
+      <div>
+        <p className="font-semibold text-gray-800">
+          🎥 Demonstration Video 1
+        </p>
+
+        <a
+          href="https://lnkd.in/e5v8NFc9"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800 break-all"
+        >
+          https://lnkd.in/e5v8NFc9
+        </a>
+      </div>
+
+      <div>
+        <p className="font-semibold text-gray-800">
+          🎥 Demonstration Video 2
+        </p>
+
+        <a
+          href="https://lnkd.in/eufMCsiZ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800 break-all"
+        >
+          https://lnkd.in/eufMCsiZ
+        </a>
+      </div>
 
     </div>
 
   </div>
 
 </div>
+
 {/* ===================================================== */}
 {/* Battery Cell Compression Machine */}
 {/* ===================================================== */}
