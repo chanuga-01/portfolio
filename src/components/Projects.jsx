@@ -93,6 +93,41 @@ function Projects() {
                 </span>
               ))}
 
+            <h4 className="font-bold text-xl mt-8 mb-4">
+  Project Resources
+</h4>
+
+<div className="space-y-3">
+
+  <a
+    href="https://lnkd.in/eNabZXe3"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center text-blue-700 hover:text-blue-900 hover:underline font-medium"
+  >
+    📘 Project Report
+  </a>
+
+  <a
+    href="https://lnkd.in/e5v8NFc9"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center text-blue-700 hover:text-blue-900 hover:underline font-medium"
+  >
+    🎥 Demonstration Video 1
+  </a>
+
+  <a
+    href="https://lnkd.in/eufMCsiZ"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center text-blue-700 hover:text-blue-900 hover:underline font-medium"
+  >
+    🎥 Demonstration Video 2
+  </a>
+
+</div>
+
             </div>
 
           </div>
