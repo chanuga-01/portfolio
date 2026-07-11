@@ -100,7 +100,7 @@ function Projects() {
 
         </div>
 
-        {/* ===================================================== */}
+{/* ===================================================== */}
 {/* Voltmotive */}
 {/* ===================================================== */}
 
@@ -120,70 +120,106 @@ function Projects() {
 
   </div>
 
-          <div className="p-10">
+  <div className="p-10">
 
-            <span className="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
-              University Group Project
-            </span>
+    <span className="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+      University Group Project
+    </span>
 
-            <h3 className="text-4xl font-bold mt-5">
-              Voltmotive
-            </h3>
+    <h3 className="text-4xl font-bold mt-5">
+      Voltmotive
+    </h3>
 
-            <h4 className="text-xl text-blue-700 mt-2 font-semibold">
-              Hybrid Electric Vehicle Controller Design
-            </h4>
+    <h4 className="text-xl text-blue-700 mt-2 font-semibold">
+      Hybrid Electric Vehicle Controller Design
+    </h4>
 
-            <p className="text-gray-600 leading-8 mt-6">
-              Designed and developed a downscaled Series Hybrid Electric Vehicle
-              (HEV) featuring an intelligent embedded controller for real-time
-              power management. The system integrates dual Arduino
-              microcontrollers, multiple sensors, relay-based power switching,
-              and MATLAB/Simulink simulations to automatically manage energy
-              flow between the battery and generator under different operating
-              conditions. Successfully designed, assembled, and tested a
-              complete hardware prototype demonstrating embedded systems,
-              control engineering, power electronics, and vehicle system
-              integration.
-            </p>
+    <p className="text-gray-600 leading-8 mt-6">
+      Designed and developed a downscaled Series Hybrid Electric Vehicle
+      (HEV) featuring an intelligent embedded controller for real-time
+      power management. The system integrates dual Arduino
+      microcontrollers, multiple sensors, relay-based power switching,
+      and MATLAB/Simulink simulations to automatically manage energy
+      flow between the battery and generator under different operating
+      conditions. Successfully designed, assembled, and tested a
+      complete hardware prototype demonstrating embedded systems,
+      control engineering, power electronics, and vehicle system
+      integration.
+    </p>
 
-            <h4 className="font-bold text-xl mt-8 mb-4">
-              Technologies & Tools
-            </h4>
+    <h4 className="font-bold text-xl mt-8 mb-4">
+      Technologies & Tools
+    </h4>
 
-            <div className="flex flex-wrap gap-3">
+    <div className="flex flex-wrap gap-3">
 
-              {[
-                "MATLAB",
-                "Simulink",
-                "Arduino Uno",
-                "Arduino Mega",
-                "Embedded C",
-                "Arduino IDE",
-                "Series Hybrid",
-                "Energy Management",
-                "Battery Management",
-                "Power Electronics",
-                "Relay Control",
-                "PCB Design",
-                "Control Systems",
-                "Hardware Integration"
-              ].map((skill) => (
-                <span
-                  key={skill}
-                  className="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm"
-                >
-                  {skill}
-                </span>
-              ))}
+      {[
+        "MATLAB",
+        "Simulink",
+        "Arduino Uno",
+        "Arduino Mega",
+        "Embedded C",
+        "Arduino IDE",
+        "Series Hybrid",
+        "Energy Management",
+        "Battery Management",
+        "Power Electronics",
+        "Relay Control",
+        "PCB Design",
+        "Control Systems",
+        "Hardware Integration"
+      ].map((skill) => (
+        <span
+          key={skill}
+          className="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm"
+        >
+          {skill}
+        </span>
+      ))}
 
-            </div>
+    </div>
 
-          </div>
+    {/* Project Resources */}
 
-        </div>
+    <h4 className="font-bold text-xl mt-10 mb-4">
+      Project Resources
+    </h4>
 
-        {/* ===================================================== */}
+    <div className="space-y-3">
+
+      <a
+        href="https://lnkd.in/eNabZXe3"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 text-blue-700 hover:text-blue-900 hover:underline font-medium"
+      >
+        📘 Project Report
+      </a>
+
+      <a
+        href="https://lnkd.in/e5v8NFc9"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 text-blue-700 hover:text-blue-900 hover:underline font-medium"
+      >
+        🎥 Demonstration Video 1
+      </a>
+
+      <a
+        href="https://lnkd.in/eufMCsiZ"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 text-blue-700 hover:text-blue-900 hover:underline font-medium"
+      >
+        🎥 Demonstration Video 2
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+{/* ===================================================== */}
 {/* Battery Cell Compression Machine */}
 {/* ===================================================== */}
 
