@@ -64,19 +64,21 @@ function About() {
 
             <div className="bg-blue-50 rounded-2xl p-6 shadow">
 
-              <h3 className="text-2xl font-bold text-blue-700">
-                Current Research
-              </h3>
+            <h3 className="text-3xl font-bold text-blue-700 mb-6">
+              School Education
+            </h3>
 
-              <p className="mt-4 leading-8">
+            <h4 className="font-bold text-2xl">
+              Sri Sumangala College, Panadura
+            </h4>
 
-                <strong>RideTwin</strong>
+            <p className="text-gray-700 mt-2">
+              G.C.E. Advanced Level (Physical Science)
+            </p>
 
-                <br />
-
-                AI-Based Digital Twin for Vehicle Ride Comfort Analysis
-
-              </p>
+            <p className="text-gray-700 mt-2">
+              Results: <strong>2A's, 1B</strong>
+            </p>
 
             </div>
 
