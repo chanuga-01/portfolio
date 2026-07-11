@@ -369,7 +369,7 @@ function Projects() {
               using SolidWorks by modeling individual engine components and
               integrating them into a complete assembly. The project focused
               on mechanical design principles, component relationships,
-              assembly constraints and engineering visualization, while
+              assembly constraints, and engineering visualization while
               strengthening practical knowledge of internal combustion engine
               architecture and CAD-based product development.
             </p>
@@ -414,6 +414,27 @@ function Projects() {
                   {skill}
                 </span>
               ))}
+
+            </div>
+
+            <h4 className="font-bold text-xl mt-10 mb-5">
+              Project Resources
+            </h4>
+
+            <div>
+
+              <p className="font-semibold text-gray-800">
+                🎥 Demonstration Video
+              </p>
+
+              <a
+                href="https://lnkd.in/eUMARVcJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800 break-all"
+              >
+                https://lnkd.in/eUMARVcJ
+              </a>
 
             </div>
 
